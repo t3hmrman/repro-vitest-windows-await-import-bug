@@ -38,10 +38,7 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
 
-      - name: Install NPM packages
+      - name: test
         run: |
           npm install
-
-      - name: Test Latest Node.js
-        run: |
           npm run test
