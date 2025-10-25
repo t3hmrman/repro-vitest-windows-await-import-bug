@@ -1,7 +1,7 @@
 import { suite, test } from "vitest";
 
-suite('windows', () => {
-    test('hangs', async () => {
+suite('windows', async () => {
+    test.concurrent('hangs', async () => {
         const mod = await import("./import-target.js");
     });
 });
