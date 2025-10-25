@@ -16,6 +16,6 @@ export default defineConfig({
         printConsoleTrace: true,
         passWithNoTests: false,
         include: ['test/unit/repro.ts'],
-        // setupFiles: ['test/meta-resolve-stub.ts'],
+        setupFiles: ['test/meta-resolve-stub.ts'],
     },
 });
