@@ -1,0 +1,23 @@
+{
+  "name": "repro-vitest-windows-await-import-bug",
+  "version": "0.0.0",
+  "description": "",
+  "homepage": "https://github.com/vados-cosmonic/repro-vitest-windows-await-import-bug#readme",
+  "bugs": {
+    "url": "https://github.com/vados-cosmonic/repro-vitest-windows-await-import-bug/issues"
+  },
+    "scripts": {
+        "test": "vitest run -c test/vitest.ts"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vados-cosmonic/repro-vitest-windows-await-import-bug.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "devDependencies": {
+    "vitest": "^4.0.3"
+  }
+}
